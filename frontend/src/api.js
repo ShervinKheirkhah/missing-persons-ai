@@ -1,10 +1,5 @@
-<<<<<<< HEAD
 // Central API helper — FindMe v2.2
 const BASE = 'http://127.0.0.1:8000';
-=======
-// Central API helper
-const BASE = 'https://missing-persons-ai-backend.onrender.com';
->>>>>>> 01aee882bb69848b3c2d451d2bd05187eec9cc7a
 
 function headers(extra = {}) {
   const token = localStorage.getItem('token');
